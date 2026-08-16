@@ -10,8 +10,6 @@ Current approaches:
 - **Custom CNN using PyTorch** 
 - **Transfer Learning using a Pretrained CNN** 
 
-The current TensorFlow/Keras model is trained for up to **20 epochs** with a **batch size of 32** and uses **Early Stopping** to reduce overfitting.
-
 ## What is Image Classification?
 
 Image classification is the task of assigning an image to one of a set of predefined classes based on its visual features.
@@ -52,7 +50,7 @@ Transfer learning uses a **pretrained CNN**, such as ResNet, and adapts it to a 
 
 - **Best Validation Accuracy:** 82.32%
 - **Test Accuracy:** ~82.8%
-- **Training:** Configured for 20 epochs; stopped after 6 epochs using Early Stopping
+- **Training:** Configured for 20 epochs with batch size 32; stopped after 6 epochs using Early Stopping to avoid overfitting
 
 ### PyTorch CNN
 
