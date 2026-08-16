@@ -6,9 +6,9 @@ This repository contains implementations of image classification using different
 
 Current approaches:
 
-- **Custom CNN using TensorFlow/Keras** — Completed
-- **Custom CNN using PyTorch** — In Progress
-- **Transfer Learning using a Pretrained CNN** — Planned
+- **Custom CNN using TensorFlow/Keras** 
+- **Custom CNN using PyTorch** 
+- **Transfer Learning using a Pretrained CNN** 
 
 The current TensorFlow/Keras model is trained for up to **20 epochs** with a **batch size of 32** and uses **Early Stopping** to reduce overfitting.
 
@@ -52,11 +52,14 @@ Transfer learning uses a **pretrained CNN**, such as ResNet, and adapts it to a 
 
 - **Best Validation Accuracy:** 82.32%
 - **Test Accuracy:** ~82.8%
-- **Training:** Stopped after 6 epochs using Early Stopping
+- **Training:** Configured for 20 epochs; stopped after 6 epochs using Early Stopping
 
 ### PyTorch CNN
 
-`In Progress`
+- **Training Accuracy:** 90.86%
+- **Test Accuracy:** 86.10%
+- **Test Loss:** 0.4746
+- **Training:** Completed for 20 epochs
 
 ### Transfer Learning
 
