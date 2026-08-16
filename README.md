@@ -61,7 +61,13 @@ Transfer learning uses a **pretrained CNN**, such as ResNet, and adapts it to a 
 
 ### Transfer Learning
 
-`Planned`
+### ResNet18 Transfer Learning
+
+- **Training Accuracy:** 89.35%
+- **Training Loss:** 0.2937
+- **Test Accuracy:** 89.60%
+- **Test Loss:** 0.2817
+- **Training:** 10 epochs
 
 ## Technologies
 
